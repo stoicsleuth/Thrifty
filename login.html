@@ -1,0 +1,119 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to Thrifty| Login</title>
+<link rel="stylesheet" href="assets/css/login.css" />
+<style type="text/css">
+    
+body {
+background-color:#e50545 ;
+color: #ffffff;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5em;
+}
+a { text-decoration: none; }
+h1 { font-size: 1em; }
+h1, p {
+margin-bottom: 10px;
+}
+strong {
+font-weight: bold;
+}
+.uppercase { text-transform: uppercase; }
+
+/* ---------- LOGIN ---------- */
+#login {
+margin: 50px auto;
+width: 300px;
+    padding-top: 150px;
+
+}
+form fieldset input[type="text"], input[type="password"] {
+background-color: #ffffff;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #C24641;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 14px;
+height: 50px;
+outline: none;
+padding: 0px 10px;
+width: 280px;
+-webkit-appearance:none;
+}
+form fieldset input[type="submit"] {
+background-color: #ffffff;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #C24641;
+font-size:0.8em;
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 50px;
+text-transform: uppercase;
+width: 280px;
+-webkit-appearance:none;
+}
+form fieldset a {
+color: #ffffff;
+font-size: 10px;
+}
+form fieldset a:hover { text-decoration: underline; }
+.btn-round {
+background-color: #5a5656;
+border-radius: 50%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+color: #f4f4f4;
+display: block;
+font-size: 12px;
+height: 50px;
+line-height: 50px;
+margin: 30px 125px;
+text-align: center;
+text-transform: uppercase;
+width: 50px;
+}
+
+</style>
+   
+</head>
+<body>
+    <header id="header" class="alt">
+					<h1><a href="index.html">Thrifty</a> The Store</h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Back to Home</a></li>
+							<!--<li>
+								<a href="#" class="icon fa-angle-down">Layouts</a>
+								<ul>
+									<li><a href="generic.html">Generic</a></li>
+									<li><a href="contact.html">Contact</a></li>
+									<li><a href="elements.html">Elements</a></li>
+									
+								</ul>
+							</li>-->
+							<li><a href="#" class="button">Sign Up</a></li>
+						</ul>
+					</nav>
+				</header>
+<div id="login">
+    
+<h1 style="color:white;"><strong style="color:white;">Welcome.</strong> Please login.</h1>
+<form action="javascript:void(0);" method="get" >
+<fieldset>
+<p><input type="text" required value="Username" onBlur="if(this.value=='')this.value='Username'" onFocus="if(this.value=='Username')this.value='' "></p>
+<p><input type="password" required value="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "></p>
+<p><a href="#">Forgot Password?</a></p>
+<p ><input type="submit" value="Login"></p>
+</fieldset>
+</form>
+        
+</div> <!-- end login -->
+</body>
+</html>
